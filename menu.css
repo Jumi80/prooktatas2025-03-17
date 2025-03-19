@@ -1,0 +1,32 @@
+li {
+width: 400px;
+border: solid 5px black;
+padding: 2px;
+text-align: center;
+}
+/* páros elemek háttérszíne */
+li:nth-child(even){
+    background-color:#16417e;     
+}
+/* páros elemek betűszíne */
+li:nth-child(even) a {
+    color:rgb(49, 161, 15)
+}
+/* páratlan elemek háttérszíne */
+li:nth-child(odd){
+    background-color: #c12e2e;    
+}
+/* páratlan elemek betűszíne */
+li:nth-child(odd) a{
+    color: yellow
+}
+/* a hivatkozások aláhúzását tudjuk így levenni */
+li a {
+    text-decoration: none 
+}
+ul {/* a lista előtti pontot tudjuk így levenni */
+    list-style-type:none;
+  /* lista elemek előtt lévő pont helyett lehet képet, gifet beilleszteni így
+    list-style-image: url(); */
+
+}
